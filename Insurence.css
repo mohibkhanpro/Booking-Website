@@ -1,0 +1,53 @@
+
+.row-1{
+  
+    height: 55vh;
+    width: 101%;
+    position: relative;
+    background-color: black;
+   
+}
+.row-1::before{
+    content: "";
+    background-image: url(./Images/main2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    opacity: 0.5;
+}
+.col-1{
+    height: 30%;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.178);
+    width: 85%;
+    
+    margin-left: 50px;
+
+    position: sticky;
+    top: 30px;
+    height: 76%;
+}
+#company-name{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+ul.navbar-nav a:hover { 
+    color: #f8b600de !important; 
+}
+ul.navbar-nav a { 
+    transition:0.2s !important; 
+}
+.section-2 .row{
+    width: 101%;
+    margin-top: 80px;
+}
+h6 .bi{
+    color: #f8b600de;
+}
+
